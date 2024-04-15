@@ -1,0 +1,256 @@
+*
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: rgb(104, 162, 212);
+    
+}
+
+.navbar
+{
+        height: 95px;
+        background-color: #909090 ;
+        color: rgb(254, 253, 253);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+
+.nav-logo
+{
+    height: 50px;
+    width: 100px;
+}
+
+.logo
+{
+    background-image: url("D:/Minor Project/Images/companyname.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+  
+}
+
+.border
+{
+    border: 0.5px solid transparent;
+}
+
+.border:hover 
+{
+border: 000px solid rgba(220, 220, 220, 0.942);
+border-radius: 5px;
+padding: 2px;
+background-color: #484848;
+
+}
+/**box2**/
+.add-1
+{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 12px;
+}
+.add-2{
+    color: white;
+    font-size: 1rem;
+    margin-left:22px;
+}
+.add-icon{
+    display: flex;
+
+}
+.nav-search{
+    margin-left: 20px;
+
+}
+.search-icon{
+    margin-left: 10px;
+}
+/**box3**/
+.nav-search{        
+    display: flex;
+    justify-content: space-evenly;
+    
+    background: transparent;
+    width: 800px;
+    height: 40px;
+    border-radius: 4px;
+
+}
+.nav-search:hover{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.search-select{
+    background-color: #ffffff;
+    width: 95px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.2rem;
+    border: none;
+   
+}
+
+
+
+.search-icon{
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1rem;
+    border: none;
+    background-color: #cccccc;
+}
+
+    
+.company-name{
+    background-image: url("D:/Minor Project/Images/websitename.png");
+    background-size: cover;
+    height: 65px;
+    width: 320px;
+    color: #cccccc;
+    margin-left: 10px;}
+
+.panel{
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35px;
+    font-family:Arial;
+    font-size: 1rem;
+    
+}
+
+/**tooling the HOME bar**/
+
+.home
+{
+    border: 0.5px solid transparent;
+}
+
+.home:hover 
+{
+border: 1px solid rgba(255, 255, 255, 0.942);
+border-radius: 1px;
+padding: 1px;
+background-color: #292929;}
+
+.logi:hover{
+ border: 1px solid white;
+ padding: 2px;
+ border-radius: 2px;
+}
+
+
+/**hero**/
+.hero-section{
+    background-image: url("D:/Minor Project/Images/background.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+  height: auto;
+  width: auto;
+  color: #000000;
+  
+}
+
+
+  
+.hero-message{
+    background-color: aliceblue;
+    color:#242424;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.2rem;
+    width: 100%;
+}
+.hero-message a{
+    color: #007185;
+}
+.content{
+    justify-content: space-evenly;   
+    background-color: transparent;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+}
+
+.box{
+    height: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    color: black;
+   width: 22%;
+    background-color:transparent;
+    padding: 20px 0px 15px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.box-img2{
+    height: 300px;
+    width: 100px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+
+}
+.content1{
+    color: solid #292929;
+    margin-top: 7px;
+    margin-left: 10px;
+    margin-right: 5px;
+    border: 0px solid black;
+   
+
+}
+.Quote{
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    align-items: flex-end;
+    width: 70%;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffffff;
+    border: 0.1px solid #000000;
+    color:#909090;
+    border-radius: 7px;
+    
+}
+.footer{    
+    margin-top: 55px;
+}
+
+.footp1{
+    background-color: #909090;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    font-size: 0.85rem;
+
+}
